@@ -1,0 +1,205 @@
+{
+    "hubApiUrl_del" : "https://local.chgcoin.org:3703/api/",
+    "coins": {
+        "ETH": {
+            "precision": 5,
+            "explorer": "https://etherscan.io"
+        },
+        "ETC": {
+            "precision": 5,
+            "explorer": "https://blockscout.com/etc/mainnet/"
+        },
+        "FSN": {
+            "precision": 3,
+            "explorer": "https://fsnex.com/"
+        },
+        "BNB": {
+            "precision": 5,
+            "explorer": "https://bscscan.com/"
+        },
+        "MATIC": {
+            "precision": 3,
+            "explorer": "https://polygonscan.com/"
+        },
+        "BTC": {
+            "protocol": "bitcoin",
+            "precision": 7,
+            "explorer": "https://chain.so/address/BTC/"
+        },
+        "DOGE": {
+            "protocol": "doge",
+            "precision": 1,
+            "explorer": "https://dogechain.info/address/"
+        },
+        "LTC": {
+            "protocol": "litecoin",
+            "precision": 5,
+            "explorer": "https://chain.so/address/LTC/"
+        },
+        "TLTC": {
+            "protocol": "litecoin",
+            "precision": 5,
+            "explorer": "https://chain.so/address/LTCTEST/"
+        }
+    },
+    "networks": {
+        "4777": {
+            "networkId": "4777",
+            "networkName": "Charg Testnet",
+            "short": "chg-testnet",
+            "coinName": "Charg Test Coin",
+            "symbol": "CHG",
+            "provider": "https://testnet.chgcoin.online/rpc",
+            "httpProvider": "https://testnet.chgcoin.online/rpc",
+            "explorer": "https://testnet.chgcoin.online"
+        },
+        "22177": {
+            "networkId": "22177",
+            "networkName": "Charg Mainnet",
+            "short": "charg",
+            "coinName": "Charg Coin",
+            "symbol": "CHG",
+            "provider": "https://rpc.chgcoin.online",
+            "httpProvider": "https://rpc.chgcoin.online",
+            "explorer": "https://explorer.chgcoin.online"
+        },
+        "56": {
+            "networkId": "56",
+            "networkName": "Binance Smart Chain",
+            "short": "binance",
+            "coinName": "CHG BEP20 Token",
+            "symbol": "BNB",
+            "provider": "https://bsc-dataseed.binance.org/",
+            "httpProvider": "https://bsc-dataseed.binance.org/",
+            "explorer": "https://bscscan.com/"
+        },
+        "97": {
+            "networkId": "97",
+            "networkName": "BSC Testnet",
+            "short": "bsc-testnet",
+            "coinName": "CHG BEP20 Token",
+            "symbol": "BNB",
+            "provider": "https://data-seed-prebsc-1-s1.binance.org:8545",
+            "httpProvider": "https://data-seed-prebsc-1-s1.binance.org:8545",
+            "explorer": "https://testnet.bscscan.com/"
+        },
+        "1" : {
+            "networkId": "1",
+            "networkName": "Ethereum Mainnet",
+            "short": "ethereum",
+            "coinName": "CHG ERC20 Token",
+            "symbol": "ETH",
+            "provider": "wss://mainnet.infura.io/ws/v3/ad4910185a7c4e69bdf478a50b105416",
+            "httpProvider": "https://mainnet.infura.io/v3/ad4910185a7c4e69bdf478a50b105416",
+            "explorer": "https://etherscan.io"
+        },
+        "3": {
+            "networkId": "3",
+            "networkName": "Ropsten Testnet",
+            "short": "ropsten",
+            "coinName": "CHG Ropsten ERC20 Token",
+            "symbol": "ETC",
+            "provider": "wss://ropsten.infura.io/ws/v3/ad4910185a7c4e69bdf478a50b105416",
+            "httpProvider": "https://ropsten.infura.io/v3/ad4910185a7c4e69bdf478a50b105416",
+            "explorer": "https://ropsten.etherscan.io"
+        },
+        "4": {
+            "networkId": "4",
+            "networkName": "Rinkeby Testnet",
+            "short": "rinkeby",
+            "coinName": "CHG Rinkeby ERC20 Token",
+            "symbol": "ETH",
+            "provider": "wss://rinkeby.infura.io/ws/v3/ad4910185a7c4e69bdf478a50b105416",
+            "httpProvider": "https://rinkeby.infura.io/v3/ad4910185a7c4e69bdf478a50b105416",
+            "explorer": "https://rinkeby.etherscan.io"
+        },
+        "5": {
+            "networkId": "5",
+            "networkName": "Goerli Testnet",
+            "short": "goerli",
+            "coinName": "CHG Goerli ERC20 Token",
+            "symbol": "FSN",
+            "provider": "wss://goerli.infura.io/ws/v3/ad4910185a7c4e69bdf478a50b105416",
+            "httpProvider": "https://goerli.infura.io/v3/ad4910185a7c4e69bdf478a50b105416",
+            "explorer": "https://goerli.etherscan.io"
+        },
+        "32659": {
+            "networkId": "32659",
+            "networkName": "Fusion Mainnet",
+            "short": "fusion",
+            "coinName": "CHG Fusion FRC20 Token",
+            "symbol": "FSN",
+            "provider": "wss://mainnet.anyswap.exchange",
+            "httpProvider": "https://mainnet.anyswap.exchange/",
+            "explorer": "https://fsnex.com/"
+        },
+        "137": {
+            "networkId": "137",
+            "networkName": "Polygon Network",
+            "short": "matic",
+            "coinName": "CHG Matic MRC20 Token",
+            "symbol": "MATIC",
+            "provider": "https://rpc-mainnet.maticvigil.com/",
+            "httpProvider": "https://rpc-mainnet.maticvigil.com/",
+            "explorer": "https://polygonscan.com/"
+        },
+        "80001": {
+            "networkId": "80001",
+            "networkName": "Polygon Testnet",
+            "short": "mumbai",
+            "coinName": "CHG Matic ERC20 Token",
+            "symbol": "MATIC",
+            "provider": "https://rpc-mumbai.maticvigil.com/",
+            "httpProvider": "https://rpc-mumbai.maticvigil.com/",
+            "explorer": "https://mumbai.polygonscan.com/"
+        },
+        "128": {
+            "networkId": "128",
+            "networkName": "HECO Chain Mainnet",
+            "short": "heco",
+            "coinName": "CHG HECO HRC20 Token",
+            "symbol": "HT",
+            "provider": "wss://ws-mainnet.hecochain.com",
+            "httpProvider": "https://http-mainnet.hecochain.com",
+            "explorer": "https://hecoinfo.com/"
+        },
+        "256": {
+            "networkId": "256",
+            "networkName": "HECO Chain Testnet",
+            "short": "hecotest",
+            "coinName": "CHG HECO HRC20 Token",
+            "symbol": "HT",
+            "provider": "wss://ws-testnet.hecochain.com",
+            "httpProvider": "https://http-testnet.hecochain.com",
+            "explorer": "https://testnet.hecoinfo.com/"
+        },
+        "421611": {
+            "networkId": "421611",
+            "networkName": "Arbitrum Testnet",
+            "short": "rinkarbi",
+            "coinName": "CHG Arbitrum ERC20 Token",
+            "symbol": "ETH",
+            "provider": "https://rinkeby.arbitrum.io/rpc",
+            "httpProvider": "https://rinkeby.arbitrum.io/rpc",
+            "explorer": "https://testnet.arbiscan.io/"
+        },
+        "42161": {
+            "networkId": "42161",
+            "networkName": "Arbitrum Mainnet",
+            "short": "arbitrum",
+            "coinName": "CHG Arbitrum ERC20 Token",
+            "symbol": "ETH",
+            "httpProvider": "https://arb1.arbitrum.io/rpc",
+            "explorer": "https://arbiscan.io/"
+        },
+        "61": {
+            "networkId": "61",
+            "networkName": "Ethereum Classic",
+            "short": "eth-classic",
+            "coinName": "CHG ERC20 Token",
+            "symbol": "ETC",
+            "httpProvider": "https://www.ethercluster.com/etc",
+            "explorer": "https://etcblockexplorer.com/"
+        }
+    }
+}

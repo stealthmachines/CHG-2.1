@@ -1,0 +1,47 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@portis/web3": "^4.0.7",
+    "@toruslabs/torus-embed": "^1.22.4",
+    "bootstrap": "^4.4.1",
+    "fortmatic": "^2.2.1",
+    "google-map-react": "^1.1.7",
+    "google-maps-react": "^2.0.6",
+    "qrcode.react": "^1.0.1",
+    "react": "16.11.0",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "16.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "source-map-explorer": "^2.5.2",
+    "walletlink": "^2.2.6",
+    "web3": "^1.7.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "uglify-js-brunch": "^2.10.0"
+  }
+}
